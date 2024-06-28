@@ -120,7 +120,7 @@ workshop is only open to people from a particular institution.
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
-<p><strong>Who:</strong> This course is intended for interns. <strong>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</strong>
+<p><strong>Who:</strong> This course is open to interns from any Smithsonian unit. <strong>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</strong>
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
